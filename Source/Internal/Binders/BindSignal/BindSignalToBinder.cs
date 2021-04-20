@@ -1,5 +1,5 @@
 using System;
-using UniDi;
+using UniDi.Internal;
 
 namespace UniDi
 {

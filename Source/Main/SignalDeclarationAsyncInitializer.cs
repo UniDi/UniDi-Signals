@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UniDi;
+using UniDi.Internal;
 
 namespace UniDi
 {

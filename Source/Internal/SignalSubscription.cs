@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-using UniDi;
+using UniDi.Internal;
 
 namespace UniDi
 {

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
-using UniDi;
+using UniDi.Internal;
+
 #if UNIDI_SIGNALS_ADD_UNIRX
 using UniRx;
 #endif
