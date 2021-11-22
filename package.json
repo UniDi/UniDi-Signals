@@ -1,5 +1,5 @@
 {
-  "name": "com.unidi.signals",
+  "name": "com.unidi.unidi.signals",
   "version": "0.1.0-preview.1",
   "displayName": "UniDi Signals",
   "description": "Event bus integration for UniDi. Make your components communicate while maintaining loose coupling and separation of concerns principles, the Event Bus pattern can be a solution for your problem.",
