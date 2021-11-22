@@ -1,5 +1,5 @@
-# Signals
-Event-based communication with [UniDi](https://github.com/UniDi/UniDi) integration.
+# UniDi Signals
+Event-based communication for [UniDi](https://github.com/UniDi/UniDi).
 
 ## Table Of Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -27,16 +27,21 @@ Signal-Bus is an event-based communication system. It allows communication betwe
 
 ## Installation
 
+Before you install this UniDi extension, please make sure that you have already installed UniDi into your project. Unity Package Manager does not do this automatically. So you need to have [UniDi](https://github.com/UniDi/UniDi) preinstalled.
+Link to UniDi: [https://github.com/UniDi/UniDi](https://github.com/UniDi/UniDi)
+
+Installation instructions are brief in this readme. As it's pretty straightforward. If you need a reminder of all the steps in deptht please visit: [UniDi Installation](https://github.com/UniDi/UniDi/blob/master/README.md#installation).
+
 ### Install via Git URL
-TODO --> WIP <--
+Open the Package Manager. Select ``Add package from Git URL...``
+Enter ``https://github.com/UniDi/UniDi-Signals.git`` and press ``add``.
 
 ### Install from file 
-Download and extract a [release](https://github.com/UniDi/UniDi/releases) to your machine. Press 'Add package from disk' in the Unity Package Manager and select the ``package.json`` file in the extracted folder.
+Download and extract a [release](https://github.com/UniDi/UniDi-Signals/releases) to your machine. Press 'Add package from disk' in the Unity Package Manager and select the ``package.json`` file in the extracted folder.
 
-### OpenUPM
-TODO: --> WIP <--
+## Usage 
 
-### Example usage
+### Example
 
 ```csharp
 public class UserJoinedSignal
@@ -135,12 +140,8 @@ public class GameInstaller : MonoInstaller<GameInstaller>
 ```
 As you can see in the the above examples, you can either directly bind a handler method to a signal in an installer using BindSignal (first example) or you can have your signal handler attach and detach itself to the signal. 
 
-
-## Usage 
-TODO
-
 ## Contributing
-TODO
+Contributing is welcome! Create a draft when you are still working on your contribution (and don't want to have it merged) or a PR to be reviewed. [Contributing guidelines](https://github.com/UniDi/UniDi/blob/master/CONTRIBUTING.md)
 
 ## License
 UniDi contributions are licensed under the Apache 2.0 license, except for contributions copied from Extenject. See [LICENSE](https://github.com/UniDi/UniDi/blob/master/LICENSE.md) for details.
