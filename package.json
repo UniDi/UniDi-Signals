@@ -1,14 +1,15 @@
 {
   "name": "com.unidi.signals",
   "version": "0.1.0-preview.1",
-  "displayName": "Signals",
+  "displayName": "UniDi Signals",
   "description": "Event bus integration for UniDi. Make your components communicate while maintaining loose coupling and separation of concerns principles, the Event Bus pattern can be a solution for your problem.",
   "unity": "2019.1",
   "unityRelease": "1f1",
   "dependencies": {
-      "com.unidi.unidi": "file:..packages/UniDi"
+    "com.unidi.unidi": "UniDi"
   },
   "keywords": [
+    "UniDi",
     "Signals",
     "Event bus",
     "Signal bus",
@@ -21,6 +22,7 @@
   "author": {
     "name": "UniDi Community",
     "email": "mathijs.unityassets@gmail.com",
-    "url": "https://github.com/UniDi"
-  }
+    "url": "unidi.github.io"
+  },
+  "type": "library"
 }
