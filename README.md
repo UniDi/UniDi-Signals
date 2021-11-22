@@ -4,9 +4,19 @@ Event-based communication with [UniDi](https://github.com/UniDi/UniDi) integrati
 ## Table Of Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<details>
-<summary>Details</summary>
-</details>
+## Details
+
+- [What is Signal-Bus?](#what-is-signal-bus)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+  - [Install via Git URL](#install-via-git-url)
+  - [Install from file](#install-from-file)
+  - [OpenUPM](#openupm)
+  - [Example usage](#example-usage)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## What is Signal-Bus?
